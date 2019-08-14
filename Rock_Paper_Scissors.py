@@ -12,7 +12,7 @@ def check_q(u_1, u_2):
     elif (u_1 == "scissors" and u_2 == "paper")or (u_1 == "paper" and u_2 == "scissors"):
         if u_1 == "scissors":
             print(p_1_w)
-            return True
+            return False
         else:
             print(p_2_w)
             return False
