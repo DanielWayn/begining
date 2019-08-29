@@ -1,0 +1,5 @@
+MyFile = open(r"C:\Users\danie_8j7k5jq\PycharmProjects\DanielProject\MyText.txt", "r")
+MyFile2 = open(r"C:\Users\danie_8j7k5jq\PycharmProjects\DanielProject\MyText2.txt", "w")
+fText = MyFile.read()
+MyFile2.write(fText)
+MyFile.close()
